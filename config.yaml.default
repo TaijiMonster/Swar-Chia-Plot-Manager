@@ -143,6 +143,8 @@ jobs:
   #
   # [OPTIONAL] pool_contract_address:  Your Pool's Contract Address. Refer to https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-FAQ#how-do-i-assign-portable-plots-to-a-pool
   #
+  # [OPTIONAL] chives_port: chives's plot port (Default 8444, adding chives_port: 9699 for making chives's plot)
+  #
   # temporary_directory: Can be a single value or a list of values. This is where the plotting will take place. If you
   #                      provide a list, it will cycle through each drive one by one.
   # [OPTIONAL] temporary2_directory: Can be a single value or a list of values. This is an optional parameter to use in
