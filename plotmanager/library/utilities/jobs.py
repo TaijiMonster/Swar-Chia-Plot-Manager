@@ -83,6 +83,8 @@ def load_jobs(config_jobs):
         job.farmer_public_key = info.get('farmer_public_key', None)
         job.pool_public_key = info.get('pool_public_key', None)
         job.pool_contract_address = info.get('pool_contract_address', None)
+        # for chives port
+        job.chives_port = info.get('chives_port', None)
         job.max_concurrent = info['max_concurrent']
         job.max_concurrent_with_start_early = info['max_concurrent_with_start_early']
 
@@ -327,6 +329,8 @@ def start_work(job, chia_location, log_directory, drives_free_space, backend):
         farmer_public_key=job.farmer_public_key,
         pool_public_key=job.pool_public_key,
         pool_contract_address=job.pool_contract_address,
+        # for chives port
+        chives_port=job.chives_port,
         size=job.size,
         memory_buffer=job.memory_buffer,
         temporary_directory=temporary_directory,
