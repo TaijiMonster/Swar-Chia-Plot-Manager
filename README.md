@@ -1,4 +1,4 @@
-# Swar's Chia Plot Manager 
+# Swar's Chia Plot Manager with Chives Support
 
 #### A plot manager for Chia plotting: https://www.chia.net/
 [English](README.md) / [Русский](README.RU.md)
