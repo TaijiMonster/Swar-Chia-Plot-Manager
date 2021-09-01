@@ -5,6 +5,8 @@ class Job:
     farmer_public_key = None
     pool_public_key = None
     pool_contract_address = None
+    # for chives port
+    chives_port = None
 
     total_running = 0
     total_kicked_off = 0
