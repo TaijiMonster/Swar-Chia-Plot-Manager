@@ -198,13 +198,14 @@ jobs:
   #                      a hyper-threaded 4 core CPU (8 logical cores). This config will restrict plot processes to use
   #                      logical cores 0-5, leaving logical cores 6 and 7 for other processes (6 restricted, 2 free).
   - name: micron
+    chives_port:9699
     max_plots: 999
     farmer_public_key:
     pool_public_key:
     temporary_directory: Z:\Plotter
     temporary2_directory:
     destination_directory: J:\Plots
-    size: 32
+    size: 29
     bitfield: true
     threads: 8
     threadX_p2:
@@ -227,6 +228,7 @@ jobs:
     cpu_affinity: [ 0, 1, 2, 3, 4, 5 ]
 
   - name: inland
+    chives_port:9699
     max_plots: 999
     farmer_public_key:
     pool_public_key:
@@ -239,7 +241,7 @@ jobs:
     destination_directory:
       - J:\Plots
       - K:\Plots
-    size: 32
+    size: 29
     bitfield: true
     threads: 8
     buckets: 128
