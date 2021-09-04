@@ -4,6 +4,8 @@
 1) Do `ps aux|grep chia_plot`
 2) You will see /home/mychives/chia-plotter/build/chia_plot -k 29 -r 24 -t /mnt/nvme/temp1/ -d /mnt/nvme/final1/ -u 256 -2 /mnt/ramdisk/ -f <YOUR FARMER PUBLIC KEY> -p <YOUR POOL PUBLIC KEY> -v 256 -K 1 -x 9699
 3) Once you see "**-k 29**" and "**-x 9699**", hooray you are all good!
+	
+### ***YOU NEED TO CONFIGURE/MODIFY THE DEFAULT config.yaml TO SUIT YOUR NEEDS, CHIVES PORT AND K29 HAS BEEN SET AS DEFAULT IN config.yaml.***
 
 #### A plot manager for Chia plotting: https://www.chia.net/
 [English](README.md) / [Русский](README.RU.md)
